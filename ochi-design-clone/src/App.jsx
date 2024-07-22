@@ -1,3 +1,5 @@
+import LandingPage from "./components/LandingPage"
+import Navbar from "./components/Navbar"
 
 
 
@@ -5,8 +7,9 @@ function App() {
 
   return (
     <>
-      <div className='h-screen bg-slate-900'>
-      
+      <div className='text-white h-screen'>
+      <Navbar />
+      <LandingPage />
       </div>
     </>
   )
