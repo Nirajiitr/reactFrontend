@@ -5,7 +5,14 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+     
+    },
+  },
+  variants: {
+    extend: {
+      fontSize: ['group-hover'],
+    },
   },
   plugins: [],
 }
